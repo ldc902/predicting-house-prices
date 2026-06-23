@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual environment
+venv/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+.pytest_cache/
+
+*.tmp
+*.bak
+*.swp
+*.bin
+
+# HuggingFace cache (models, datasets)
+~/.cache/huggingface
+~/.huggingface/
+huggingface/
+
+# LangChain memory/session storage (if any)
+langchain.db
+langchain_logs/
+
+# Python project specific
+*.egg-info/
+dist/
+build/
+
+# MyPy
+.mypy_cache/
+
+# PyCharm
+.idea/
